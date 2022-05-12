@@ -79,7 +79,6 @@ class Calculator {
         else {
             return integerDisplay
         }
-
     }
 
     updateDisplay () {
@@ -92,10 +91,7 @@ class Calculator {
         else {
             this.previousOperandTextElement.innerText = ''
         }
-        
-
     }
-
 }
 
 const numberButtons = document.querySelectorAll('[data-number]')
